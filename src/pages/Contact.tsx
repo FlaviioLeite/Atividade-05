@@ -1,10 +1,8 @@
-// src/pages/Contact.tsx
 import React from 'react';
-
 const Contact: React.FC = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <h1>Contato</h1>
       <form>
         <div>
           <label htmlFor="name">Nome:</label>
@@ -23,5 +21,4 @@ const Contact: React.FC = () => {
     </div>
   );
 };
-
 export default Contact;

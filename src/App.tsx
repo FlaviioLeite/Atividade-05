@@ -1,12 +1,13 @@
 // src/App.tsx
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom';
+import './App.css';
 import Contact from './pages/Contact';
 
 const Home: React.FC = () => (
   <div>
     <h1>Home</h1>
-    <p>Home page fodona</p>
+    <p>Home foda!</p>
   </div>
 );
 
